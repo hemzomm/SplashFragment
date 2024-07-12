@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/email"
+        android:hint="Enter Email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/phone"
+        android:hint="Enter Phone"
+        />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:id="@+id/address"
+    android:hint="Enter Address"
+    />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:id="@+id/dob"
+    android:hint="Enter Date of Birth"
+        android:inputType="date"
+    />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passconform"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:hint="Conform Password"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:id="@+id/signup"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="If already Registered "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginNow"
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_gravity="center"
+        android:textScaleX="2"
+
+        android:text="go to Login"/>
+
+
+</LinearLayout>
